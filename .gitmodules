@@ -1,0 +1,6 @@
+[submodule "vendor/assets/javascripts/raphael"]
+	path = vendor/assets/javascripts/raphael
+	url = https://github.com/DmitryBaranovskiy/raphael.git
+[submodule "vendor/assets/javascripts/g.raphael"]
+	path = vendor/assets/javascripts/g.raphael
+	url = https://github.com/DmitryBaranovskiy/g.raphael.git
