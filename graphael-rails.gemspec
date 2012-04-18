@@ -26,9 +26,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "graphael-rails.gemspec",
-    "lib/graphael-rails.rb",
-    "test/helper.rb",
-    "test/test_graphael-rails.rb"
+    "lib/graphael-rails.rb"
   ]
   s.homepage = %q{http://github.com/cschwartz/graphael-rails}
   s.licenses = [%q{MIT}]
