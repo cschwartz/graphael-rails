@@ -21,8 +21,7 @@ Jeweler::Tasks.new do |gem|
   gem.description = gem.summary
   gem.email = "christian.schwartz@informatik.uni-wuerzburg.de"
   gem.authors = ["christian schwartz"]
-  gem.files.include 'vendor/assets/javascripts/raphael'
-  gem.files.include 'vendor/assets/javascripts/g.raphael'
+  gem.files.include Dir['vendor/**/*'].to_a
 end
 Jeweler::RubygemsDotOrgTasks.new
 
