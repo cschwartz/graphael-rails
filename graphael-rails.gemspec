@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{graphael-rails}
+  s.name = "graphael-rails"
   s.version = "0.1.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = [%q{christian schwartz}]
-  s.date = %q{2012-04-18}
-  s.description = %q{raphael and graphael bundle for rails}
-  s.email = %q{christian.schwartz@informatik.uni-wuerzburg.de}
+  s.authors = ["christian schwartz"]
+  s.date = "2012-04-20"
+  s.description = "raphael and graphael bundle for rails"
+  s.email = "christian.schwartz@informatik.uni-wuerzburg.de"
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.rdoc"
@@ -28,11 +28,11 @@ Gem::Specification.new do |s|
     "graphael-rails.gemspec",
     "lib/graphael-rails.rb"
   ]
-  s.homepage = %q{http://github.com/cschwartz/graphael-rails}
-  s.licenses = [%q{MIT}]
-  s.require_paths = [%q{lib}]
-  s.rubygems_version = %q{1.8.6}
-  s.summary = %q{raphael and graphael bundle for rails}
+  s.homepage = "http://github.com/cschwartz/graphael-rails"
+  s.licenses = ["MIT"]
+  s.require_paths = ["lib"]
+  s.rubygems_version = "1.8.11"
+  s.summary = "raphael and graphael bundle for rails"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
