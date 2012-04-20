@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "graphael-rails"
-  s.version = "0.1.3"
+  s.version = "0.1.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["christian schwartz"]
@@ -26,7 +26,48 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "graphael-rails.gemspec",
-    "lib/graphael-rails.rb"
+    "lib/graphael-rails.rb",
+    "vendor/assets/javascripts/g.raphael/README.markdown",
+    "vendor/assets/javascripts/g.raphael/docs/blueprint-min.png",
+    "vendor/assets/javascripts/g.raphael/docs/dr-print.css",
+    "vendor/assets/javascripts/g.raphael/docs/dr.css",
+    "vendor/assets/javascripts/g.raphael/docs/reference.html",
+    "vendor/assets/javascripts/g.raphael/docs/reference.js",
+    "vendor/assets/javascripts/g.raphael/g.bar.js",
+    "vendor/assets/javascripts/g.raphael/g.dot.js",
+    "vendor/assets/javascripts/g.raphael/g.line.js",
+    "vendor/assets/javascripts/g.raphael/g.pie.js",
+    "vendor/assets/javascripts/g.raphael/g.raphael.js",
+    "vendor/assets/javascripts/g.raphael/g.raphael.json",
+    "vendor/assets/javascripts/g.raphael/min/g.bar-min.js",
+    "vendor/assets/javascripts/g.raphael/min/g.dot-min.js",
+    "vendor/assets/javascripts/g.raphael/min/g.line-min.js",
+    "vendor/assets/javascripts/g.raphael/min/g.pie-min.js",
+    "vendor/assets/javascripts/g.raphael/min/g.raphael-min.js",
+    "vendor/assets/javascripts/g.raphael/raphael-min.js",
+    "vendor/assets/javascripts/g.raphael/test/barchart.html",
+    "vendor/assets/javascripts/g.raphael/test/barchart2.html",
+    "vendor/assets/javascripts/g.raphael/test/brightness.html",
+    "vendor/assets/javascripts/g.raphael/test/css/demo-print.css",
+    "vendor/assets/javascripts/g.raphael/test/css/demo.css",
+    "vendor/assets/javascripts/g.raphael/test/dotchart.html",
+    "vendor/assets/javascripts/g.raphael/test/images/bg.png",
+    "vendor/assets/javascripts/g.raphael/test/images/bgbg.png",
+    "vendor/assets/javascripts/g.raphael/test/linechart.html",
+    "vendor/assets/javascripts/g.raphael/test/piechart.html",
+    "vendor/assets/javascripts/g.raphael/test/piechart2.html",
+    "vendor/assets/javascripts/g.raphael/test/tooltips.html",
+    "vendor/assets/javascripts/raphael/README.markdown",
+    "vendor/assets/javascripts/raphael/history.md",
+    "vendor/assets/javascripts/raphael/license.txt",
+    "vendor/assets/javascripts/raphael/make",
+    "vendor/assets/javascripts/raphael/raphael-min.js",
+    "vendor/assets/javascripts/raphael/raphael.core.js",
+    "vendor/assets/javascripts/raphael/raphael.js",
+    "vendor/assets/javascripts/raphael/raphael.svg.js",
+    "vendor/assets/javascripts/raphael/raphael.vml.js",
+    "vendor/assets/javascripts/raphael/reference.html",
+    "vendor/assets/javascripts/raphael/reference.js"
   ]
   s.homepage = "http://github.com/cschwartz/graphael-rails"
   s.licenses = ["MIT"]
